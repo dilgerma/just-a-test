@@ -1,0 +1,7 @@
+contract-extension-offer-service:
+   image: dockerregistry.sg.de.pri.o2.com/contract-extension-offer-service
+   ports:
+   - "9090:8080"
+   container_name: contract-extension-offer-service
+   env_file:
+   - ./docker-development.env
